@@ -1,0 +1,15 @@
+[
+  {
+    "adminId": "#124569",
+    "adminName": "Ashish",
+    "password": "**********",
+    "emailId": "xyz@mail.com",
+    "contactNumber": 12456790,
+    "contactEmail": "xyz@mail.com",
+    "adminType": "admin",
+    "isActive": true,
+    "createdDate": "2020-01-01 00:00:00",
+    "updatedDate": "2020-01-01 00:00:00",
+    "deletedDate": null
+  }
+]

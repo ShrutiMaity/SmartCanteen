@@ -1,0 +1,36 @@
+[
+  {
+    "foodId": "#1245680",
+    "foodName": "Samosa",
+    "foodDescription": "Samosa 2pcs With Chutney",
+    "foodCategory": [
+      "Fast Food",
+      "Healthy Food"
+    ],
+    "foodPrice": 20,
+    "foodRatings": 4.4,
+    "totalReviews": 1025,
+    "nutritionValue": {
+      "calories": 100,
+      "totalFat": "5g",
+      "protien": "2g"
+    }
+  },
+  {
+    "foodId": "#1245hd",
+    "foodName": "Dosa",
+    "foodDescription": "Dosa With Chutney",
+    "foodCategory": [
+      "Lunch",
+      "Healthy Food"
+    ],
+    "foodPrice": 70,
+    "foodRatings": 4.9,
+    "totalReviews": 1025,
+    "nutritionValue": {
+      "calories": 100,
+      "totalFat": "5g",
+      "protien": "2g"
+    }
+  }
+]

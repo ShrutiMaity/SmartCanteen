@@ -1,0 +1,28 @@
+[
+  {
+    "userId": "583c3ac3f38e84297c002546",
+    "firstName": "Ashish",
+    "lastName": "Manna",
+    "mobileNumber": 1234567890,
+    "emailId": "xyx@mail.com",
+    "password": "**********",
+    "college": "VSIT",
+    "department": "BscIT",
+    "created_at": "2016-11-28T14:10:11.338Z",
+    "updated_at": "2016-12-02T01:17:29.310Z",
+    "last_login": "2016-12-02T01:17:29.310Z"
+  },
+  {
+    "userId": "583c3ac3f38edvhgvkd7c002546",
+    "firstName": "Shruti",
+    "lastName": "Maity",
+    "mobileNumber": 1234567890,
+    "emailId": "xyx@mail.com",
+    "password": "**********",
+    "college": "VSIT",
+    "department": "BscIT",
+    "created_at": "2016-11-28T14:10:11.338Z",
+    "updated_at": "2016-12-02T01:17:29.310Z",
+    "last_login": "2016-12-02T01:17:29.310Z"
+  }
+]
