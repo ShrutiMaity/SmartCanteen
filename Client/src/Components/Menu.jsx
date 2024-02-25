@@ -172,7 +172,10 @@ function Menu() {
           {data.map((item, index) => {
             return (
               <div className="productCard" key={index}>
+                <div>
                 <img src={item.imgSrc} />
+                </div>
+                
 
                 <div className="productDet flex fd-col gap-8">
                   <p className="foodName">{item.name}</p>

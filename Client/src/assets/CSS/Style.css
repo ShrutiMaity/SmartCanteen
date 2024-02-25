@@ -1,28 +1,62 @@
 #Main {
-  max-height: 100vh;
+  height: 100vh;
   max-width: 100vw;
   display: grid;
   place-items: center;
+  background-color: #dadada;
 }
 
 .screen {
   text-align: center;
   width: 350px;
-  min-height: 100vh;
-  max-height: 800px;
-  background-color: var(--orange);
-  border-radius: 30px;
+  /* min-height: 100vh; */
+  height: 650px;
+  border-radius: 20px;
   overflow: hidden;
 }
 
-/* ---------------------------------------------------------------SplashScreen---------------------------------------------------- */
+/* -------------------- */
+/* SPLASH SCREEN */
+/* -------------------- */
 
-#splashScreen {
-  display: grid;
-  grid-template-rows: 1fr 200px;
+#SplashScreen {
   height: 100%;
   width: 100%;
-  /* background-color: var(--orange); */
+  background-color: var(--orange);
+  display: grid;
+  grid-template-rows: 1fr 150px;
+}
+
+.top {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 30px 30px;
+  background-color: var(--grey);
+}
+
+.bottom {
+  /* border: 1px solid; */
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.content {
+  height: 100%;
+  gap: 32px;
+}
+
+.splashAdvertisement {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .splashImages {
+    /* border: 1px solid; */
+    width: 250px;
+    height: 250px;
+  }
 }
 
 .screenTop {
@@ -38,7 +72,7 @@
 .splashAdvertisement {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 32px;
 }
 
 .splashQuote {
@@ -48,24 +82,62 @@
 }
 
 .splashImages {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
+}
+
+.quote {
+  font-size: 14px;
+  font-weight: var(--medium);
+  color: var(--orange);
 }
 
 .imgOn {
   height: 8px;
-  width: 24px;
+  width: 8px;
   border-radius: 6px;
   background-color: var(--orange);
 }
 
 .imgOff {
   height: 8px;
-  width: 24px;
+  width: 8px;
   border-radius: 6px;
   background-color: hsla(24, 100%, 49%, 0.203);
 }
 
+.tagline {
+  .header {
+    font-size: 30px;
+    font-weight: var(--semibold);
+  }
+
+  .desc {
+    font-size: 10px;
+    color: var(--darkGrey);
+  }
+}
+
+.bottom {
+  .btn-holder {
+    width: 100%;
+    gap: 48px;
+  }
+
+  & button {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: var(--medium);
+    color: var(--orange);
+
+    &:first-child{
+      background-color: var(--orange);
+      border: 1px solid var(--grey);
+      color: var(--grey);
+    }
+  }
+}
 
 .appName {
   font-size: 44px;
@@ -283,7 +355,7 @@ nav {
   height: 670px;
 }
 
-.menu>div {
+.menu > div {
   margin: 16px 0;
 }
 

@@ -1,12 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
     --orange: #F96300;
     --grey: #F8F9FD;
     --darkGrey: #878787;
     --lightGrey: #DDDFEB;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+
+    --regumlar:400;
+    --medium:500;
+    --semibold:600;
 }
 
 img {
@@ -14,10 +21,21 @@ img {
     height: 100%;
 }
 
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 /* --------------------FLEX---------------------- */
 
 .flex {
     display: flex;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
 }
 
 .fd-col {

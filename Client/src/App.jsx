@@ -24,17 +24,17 @@ function App() {
     <>
       <div id="Main">
         <div className="screen">
-          {/* <Splash /> */}
+          <Splash />
 
           {/* <Register /> */}
           {/* <Login /> */}
           {/* <ForgotPassword /> */}
           {/* <ResetPassword /> */}
           {/* <Verification /> */}
-          {/*<LandingPage />*/ }
+          {/* <LandingPage /> */}
           {/* <Cart /> */}
 
-          <Routing />
+          {/* <Routing /> */}
         </div>
       </div>
     </>
